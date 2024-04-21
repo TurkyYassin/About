@@ -287,13 +287,15 @@ header * {
 
 .team{
 	position: relative;
-	width: 100%;
+	/* width: 100%; */
 	height: 100vh;
 	/* background:#ECECEC; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .team-content{
 	width: 100%;
@@ -379,6 +381,86 @@ header * {
 
 /* SEC3 END */
 
+/* SEC4 Start */
+
+.sec4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.sec4 .fac{
+  background: #1256EA;
+  border-radius: 15px;
+  padding: 20px;
+  height: 500px;
+  width: 30%;
+  transition: all .38s ease;
+}
+.sec4 .fac:hover{
+transform: translateY(-20px);
+}
+.sec4 .fac h3{
+  color: #f5916a;
+  margin:30px 10px;
+}
+
+.sec4 .fac p{
+  color: #fff;
+  line-height: 1.8;
+}
+
+.sec4 .str{
+  background: #F84D07;
+  border-radius: 15px;
+  padding: 20px;
+  height: 500px;
+  width: 30%;
+  transition: all .38s ease;
+}
+
+.sec4 .str:hover{
+  transform: translateY(20px);
+  }
+
+.sec4 .str h3{
+  color: #fff;
+  margin:30px 10px;
+}
+
+.sec4 .str p{
+  color: #000;
+  line-height: 1.8;
+}
+
+.sec4 .onl{
+  background: #1256EA;
+  border-radius: 15px;
+  padding: 20px;
+  height: 500px;
+  width: 30%;
+  transition: all .38s ease;
+}
+
+.sec4 .onl:hover{
+  transform: translateY(-20px);
+  }
+
+.sec4 .onl h3{
+  color: #fff;
+  margin:30px 10px;
+}
+
+.sec4 .onl p{
+  color: #fff;
+  line-height: 1.8;
+}
+
+/* SEC4 END */
+
 
 /* About END */
 
@@ -387,7 +469,7 @@ header * {
  /* Footer Start */
 
  .footer{
-    margin-top: 1200px;
+    margin-top: 1800px;
  }
  .footer .container{
 	max-width: 1170px;
